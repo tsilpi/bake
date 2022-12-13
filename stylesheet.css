@@ -1,0 +1,140 @@
+body{
+    background-color: pink;
+    margin: 0%;
+    display: block;
+    
+}
+h3, h5{
+    color: rgb(88, 3, 81);
+}
+.h3{
+    font-size: 2.3rem;
+    font-weight: 500;
+    text-align: center;
+}
+.h1{
+    color: antiquewhite;
+}
+.nav_container{
+    position: relative;
+}
+.navigation_links{
+    /* text-align: right; */
+    position:absolute;
+    top: 0%;
+    right: 0%;
+    transform: translateY(-50%);
+    
+}
+hr{
+    border-style: dotted;
+    border-top: 0;
+    border-width: 8px;
+    border-color: rgb(31, 1, 11);
+    width: 6%;
+    margin: 4% auto;
+}
+.section_one{
+    background-color: rgb(216, 24, 88);
+    text-align: center;
+    font: 
+    padding-top 15%;
+    position: relative;
+    height: 100%;
+}
+.section-one h1{
+    font-size: 5.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin: 5% 0;
+}
+.section-one p {font: size 2rem;
+margin:10%;}
+
+.section_one p span{
+    text-decoration: underline;
+}
+.section_one,.macaroons_one {
+    position: relative;
+}
+.doughnut_one{
+    top: 5%;
+    height: 15%;
+}
+.macaroons_one{
+    bottom: 4%;
+    left: 25%;
+}
+.section_two{
+    padding: 5% 25%;
+}
+.profile_container{
+    text-align: center;
+}
+.profile_container p{
+    width: 40%;
+    margin: 5% auto;
+}
+.profile_image{
+    height: 450px;
+    width: 350px;
+    border-radius: 50%;
+}
+.skill_one img{
+    float: left;
+    margin-right: 4%;
+}
+.skill_two img{
+    margin: 4%;
+    float: right;
+}
+.contact_me_container{
+    text-align: center;
+    background-color: rgb(216, 48, 132);
+}
+.contact_me_container h5{
+    font-size: 1.25rem;
+}
+.contact_me_container p{
+    margin-bottom: 5%;
+    background-color: rgb(243, 123, 123);
+    border-radius: 15px;
+    font-size: 1rem;
+}
+.contact_me_container a{
+    text-decoration: none;
+    color: blanchedalmond;
+    padding: 1.5% 3.5%;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+
+}
+.contact_me_container a :hover{
+    background-color: rgb(32, 31, 92);
+     color: rgb(2, 2, 14);
+}
+.links{
+    text-align: center;
+    margin: auto;
+    background-color: rgb(233, 41, 105);
+}
+.footer{
+    height: 12vh;
+    background-color:  rgb(233, 41, 105);
+    text-align: center;
+    padding: 5% 0 2%;  
+}
+.links a{
+    margin: 0% 3%;
+    color: black;
+}
+.links a:hover{
+    color: blanchedalmond;
+}
+.footer p{
+    margin: 2% 0;
+    font-size: 0.7rem;
+    color: white;
+    text-align: center;
+}
